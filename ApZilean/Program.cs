@@ -96,7 +96,7 @@ namespace ApZilean
             MiscMenu = ApZileanMenu.AddSubMenu("Misc");
             MiscMenu.Add("autoUlt", new Slider("AutoUlt if n% hp (0 = off)", defaultValue: 20, minValue: 0, maxValue: 100));
             MiscMenu.Add("autoUltAllies", new CheckBox("AutoUlt Allies"));
-            MiscMenu.Add("autoq", new Slider("Auto2Q (Q + W + Q) if n enemies", 3, 0, 5));
+            MiscMenu.Add("autoq", new Slider("Auto2Q (E + Q + W + Q) if n enemies", 7, 3, 0, 5));
             MiscMenu.Add("antigapcloser", new CheckBox("AntiGapCloser with E"));
             MiscMenu.Add("bombtomouse", new KeyBind("DoubleBomb to mouse", false, KeyBind.BindTypes.HoldActive, 'Z'));
             MiscMenu.Add("blockr", new CheckBox("Block Flash when zilean has ult on yourself"));
